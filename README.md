@@ -1,3 +1,1 @@
-# dark-mode-anything
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/sudo-self/dark-mode-anything)
+## [Dark Mode Anything⚡️]([https://stackblitz.com/~/github.com/sudo-self/dark-mode-anything](https://stackblitzstarterswcevjr-3ldb--8080--810981ba.local-credentialless.webcontainer.io/)https://stackblitzstarterswcevjr-3ldb--8080--810981ba.local-credentialless.webcontainer.io/)
