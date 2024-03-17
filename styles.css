@@ -1,0 +1,13 @@
+.dark-mode {
+  background-color: #333;
+  color: grey;
+}
+.dark-mode-svg {
+  fill: #333;
+  color: grey;
+  width: 100px;
+  height: 100px;
+  margin-top: 50px;
+  margin-left: 100px;
+  cursor: pointer;
+}
