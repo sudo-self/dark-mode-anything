@@ -5,23 +5,21 @@
   <title>Dark Mode</title>
   <link rel="stylesheet" href="./styles.css">
   <script src="script.js"></script>
-
 </head>
 <body>
-<center><h1>DARK MODE<h1></center><hr>
-  <code><pre>Click the SVG to toggle dark mode</pre></code>&nbsp;
-
+<center><h1>DARK MODE ANYTHING</h1></center><hr>
+<center><code><pre>Click the SVG to toggle dark mode</pre></code></center>&nbsp;
+<center>
 <svg xmlns="http://www.w3.org/2000/svg" class="dark-mode-svg" onclick="toggleDarkMode()">>
 
 <path fill="currentColor" d="M12 22q-.825 0-1.412-.587T10 20h4q0 .825-.587 1.413T12 22m-4-3v-2h8v2zm.25-3q-1.725-1.025-2.738-2.75T4.5 9.5q0-3.125 2.188-5.312T12 2q3.125 0 5.313 2.188T19.5 9.5q0 2.025-1.012 3.75T15.75 16z" />
-</svg>
-&nbsp;&nbsp;
-<h4>CSS</h4>
-<textarea rows="14" cols="25" readonly>
+</svg></center>
+<h2>CSS</h2>
+<p>
   .dark-mode {
     background-color: #333;
     color: grey;
-  }
+  }<br><br>
   .dark-mode-svg {
     fill: #333;
     color: grey;
@@ -30,13 +28,13 @@
     margin-top: 50px;
     margin-left: 100px;
     cursor: pointer;
-  }</textarea>
+  }</p>
 <br><br>
-<h4>JS</h4>
-<textarea rows="8" cols="33" readonly>
-  function toggleDarkMode() {
+<h2>JS</h2>
+<p>
+  function toggleDarkMode() {<br>
     const body = document.body;
-    const isDarkMode = body.classList.contains("dark-mode");
+    const isDarkMode = body.classList.contains("dark-mode");<br>
     body.classList.toggle("dark-mode", !isDarkMode);
-  }</textarea>
+  }</p>
 </html>
